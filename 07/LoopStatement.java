@@ -58,21 +58,21 @@ public class LoopStatement {
         // System.out.println("輸入錯誤");
         // }
 
-        Scanner s = new Scanner(System.in);
-        // System.out.println(number);
-        int number;
-        while (true) {
-            System.out.println("請輸入一個正整數");
-            number = s.nextInt();
-            System.out.println("使用者輸入的數值為：" + number);
+        // Scanner s = new Scanner(System.in);
+        // // System.out.println(number);
+        // int number;
+        // while (true) {
+        // System.out.println("請輸入一個正整數");
+        // number = s.nextInt();
+        // System.out.println("使用者輸入的數值為：" + number);
 
-            if (number > 0) { // 如果使用者輸入正確，強制結束回圈
-                break;
-            } else { // 如果使用者輸入錯誤，則繼續執行回圈
-                System.out.println("輸入錯誤");
-            }
-        }
-        // 取得正確的輸入，做想要做的工作
-        System.out.println("輸入正確: " + number);
+        // if (number > 0) { // 如果使用者輸入正確，強制結束回圈
+        // break;
+        // } else { // 如果使用者輸入錯誤，則繼續執行回圈
+        // System.out.println("輸入錯誤");
+        // }
+        // }
+        // // 取得正確的輸入，做想要做的工作
+        // System.out.println("輸入正確: " + number);
     }
 }
